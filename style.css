@@ -1,0 +1,25 @@
+body {
+    font-size: 1.6em;
+    line-height: 1.6;
+    overflow-x: hidden;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: ProximaNova,sans-serif;
+    font-weight: 400;
+    color: #546476;
+    background-color: #2fb495
+}
+
+@font-face 
+{
+font-family: 'Proxima Nova Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Ressources/fonts/Proxima Nova Regular'), url('Ressource/fonts/ProximaNova-Regular.woff') format('woff');
+}
+
+font-family: "Proxima Nova Semibold", arial;

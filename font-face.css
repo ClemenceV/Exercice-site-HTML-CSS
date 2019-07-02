@@ -1,0 +1,9 @@
+@font-face 
+{
+font-family: 'Proxima Nova Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Ressource/fonts/Proxima Nova Regular'), url('Ressource/fonts/ProximaNova-Regular.woff') format('woff');
+}
+
+font-family: "Proxima Nova Semibold", arial;
