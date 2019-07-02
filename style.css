@@ -19,7 +19,14 @@ body {
 font-family: 'Proxima Nova Regular';
 font-style: normal;
 font-weight: normal;
-src: local('Ressources/fonts/Proxima Nova Regular'), url('Ressource/fonts/ProximaNova-Regular.woff') format('woff');
+src: local('Ressources/fonts/Proxima Nova Regular.woff'), url('Ressource/fonts/ProximaNova-Regular.woff') format('woff');
 }
 
-font-family: "Proxima Nova Semibold", arial;
+/*font-family: "Proxima Nova Semibold", arial;*/
+
+
+.logo_lunchr {
+    width:89px;
+    border-width:0px;
+    border:0px;
+}
