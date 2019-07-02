@@ -1,3 +1,3 @@
 # Exercice-site-HTML-CSS
-Reproduction site
+Reproduction site web
 https://www.lunchr.co
