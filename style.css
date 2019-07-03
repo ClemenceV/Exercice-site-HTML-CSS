@@ -55,20 +55,22 @@ li {
 }
 
 
-/*ul {
-   list-style: none;
-   text-decoration: none; 
-}
-
-.menu_dropdown {
+/*.menu_dropdown {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-decoration: none;
     position: absolute;
     top: 25px;
     text-decoration: none;
     color: white;
-    font-family: "ProximaNova-Semibold";
-    font-size: 22px;
+    font-family: "Proxima Nova Semibold";
+    font-size: 18px;
 }
-*/
+
+.sous_menu {
+    display:none;
+} */  
 
 .item3 {
     color: white;
@@ -131,7 +133,7 @@ p {
 }
 
 .ligne_button {
-    display: flex;
+    display: inline-flex;
     justify-content: flex-start;
 
     margin: 8px 0px;
