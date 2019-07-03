@@ -124,6 +124,7 @@ p {
 
 .ligne_button {
     display: inline-flex;
+    justify-content: space-around;
     margin: 8px 0px;
     padding: 14px 34px;
     
@@ -165,7 +166,7 @@ p {
 }
 .ligne_site {
     display: inline-flex;
-    /*justify-content: space-around;*/
+    justify-content: space-around;
 }
 
 .colonne_droite {
