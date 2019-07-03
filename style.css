@@ -1,32 +1,184 @@
 body {
-    font-size: 1.6em;
-    line-height: 1.6;
-    overflow-x: hidden;
     display: flex;
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
     flex-direction: column;
-    justify-content: space-between;
-    font-family: ProximaNova,sans-serif;
-    font-weight: 400;
-    color: #546476;
+    margin: 0;
     background-color: #2fb495
 }
 
-@font-face 
-{
-font-family: 'Proxima Nova Regular';
-font-style: normal;
-font-weight: normal;
-src: local('Ressources/fonts/Proxima Nova Regular.woff'), url('Ressource/fonts/ProximaNova-Regular.woff') format('woff');
+nav {
+    width: 100%;
+    padding: 18px 0px 18px 0px;
 }
 
-/*font-family: "Proxima Nova Semibold", arial;*/
+li {
+    list-style: none;
+}
 
+.ligne_navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    margin: auto;
+    max-width: 1110px;
+    max-height: 48px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.item1 {
+    color: white;
+    padding: 0px 0px 0px 40px;
+    text-decoration: none;
+    font-family: "ProximaNova-Bold";
+    font-size: 22px;
+}
+
+.item2 {
+    color: white;
+    padding: 0px 0px 0px 40px;
+    text-decoration: none;
+    font-family: "ProximaNova-Semibold";
+    font-size: 22px;
+}
+
+
+/*ul {
+   list-style: none;
+   text-decoration: none; 
+}
+
+.menu_dropdown {
+    position: absolute;
+    top: 25px;
+    text-decoration: none;
+    color: white;
+    font-family: "ProximaNova-Semibold";
+    font-size: 22px;
+}
+*/
+
+.item3 {
+    color: white;
+    padding: 0px 0px 0px 40px;
+    text-decoration: none;
+    font-family: "ProximaNova-Semibold";
+    font-size: 22px;
+}
+
+.button {
+    color: white;
+    padding: 0px 0px 0px 40px;
+    text-decoration: none;
+    font-family: "ProximaNova-Semibold";
+    font-size: 22px;
+    border: 1px solid;
+    border-radius: 2.4rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 0 2.05rem;
+    height: 48px;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
 
 .logo_lunchr {
     width:89px;
     border-width:0px;
     border:0px;
+}
+
+.element1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1 {
+    color: white;
+    font-family: "ProximaNova-Semibold";
+    font-size: 60.5px
+    line-height: 1.19;
+}
+
+p {
+    color: white;
+    font-family: "ProximaNova-Semibold";
+    font-size: 24.75px
+    line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+font-family: 'Proxima Nova Regular';
+font-style: normal;
+font-weight: normal;
+src: local('fonts/Proxima Nova Regular'), url('ProximaNova-Regular.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Proxima Nova Thin';
+font-style: normal;
+font-weight: normal;
+src: local('fonts/Proxima Nova Thin'), url('ProximaNovaT-Thin.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Proxima Nova Light';
+font-style: normal;
+font-weight: normal;
+src: local('fonts/Proxima Nova Light'), url('ProximaNova-Light.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Proxima Nova Semibold';
+font-style: normal;
+font-weight: normal;
+src: local('fonts/Proxima Nova Semibold'), url('ProximaNova-Semibold.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Proxima Nova Bold';
+font-style: normal;
+font-weight: normal;
+src: local('fonts/Proxima Nova Bold'), url('ProximaNova-Bold.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Proxima Nova Extrabold';
+font-style: normal;
+font-weight: normal;
+src: local('fonts/Proxima Nova Extrabold'), url('ProximaNova-Extrabld.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Proxima Nova Black';
+font-style: normal;
+font-weight: normal;
+src: local('fonts/Proxima Nova Black'), url('ProximaNova-Black.woff') format('woff');
 }
