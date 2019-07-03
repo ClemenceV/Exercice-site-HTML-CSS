@@ -1,11 +1,20 @@
-body {
+.body_index {
     display: flex;
     flex-direction: column;
-    margin: 0;
     background-color: #2FB495;
 }
 
+.body_choisir {
+    background-color: #112362;
+}
+
+.body_restos {
+    background-color: #faae21;
+}
+
 nav {
+    display: flex;
+    justify-content: 
     width: 100%;
     padding: 18px 0px 18px 0px;
 }
@@ -26,7 +35,6 @@ li {
 
 .navbar {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
 }
 
@@ -124,7 +132,8 @@ p {
 
 .ligne_button {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
+
     margin: 8px 0px;
     padding: 14px 34px;
     
