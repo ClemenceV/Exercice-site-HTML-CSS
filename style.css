@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    background-color: #2fb495
+    background-color: #2FB495;
 }
 
 nav {
@@ -72,7 +72,6 @@ li {
 
 .button {
     color: white;
-    padding: 0px 0px 0px 40px;
     text-decoration: none;
     font-family: "ProximaNova-Semibold";
     font-size: 22px;
@@ -88,6 +87,7 @@ li {
 .button:hover {
     background-color: white;
     color: black;
+    border-color: white;
 }
 
 .logo_lunchr {
@@ -116,10 +116,40 @@ p {
     line-height: 1.6;
 }
 
+.bouton_premier_pas {
+    color: #2FB495;
+    background-color: white;
+    text-decoration: none;
+    font-family: "ProximaNova-Semibold";
+    font-size: 22px;
+    border: 1px solid white;
+    border-radius: 2.4rem;
+    padding: 14px 34px;
+    height: 48px;
+}
 
+.bouton_premier_pas:hover {
+    background-color: #25796B; 
+    color: white;
+    border-color: transparent;
+}
 
+.bouton_contact {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: "ProximaNova-Semibold";
+    font-size: 22px;
+    border: 1px solid white;
+    border-radius: 2.4rem;
+    padding: 14px 34px;
+    height: 48px;
+}
 
-
+.bouton_contact:hover {
+    color: #25796B;
+    border-color: #25796B;
+}
 
 
 
