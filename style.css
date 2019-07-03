@@ -34,16 +34,16 @@ li {
     color: white;
     padding: 0px 0px 0px 40px;
     text-decoration: none;
-    font-family: "ProximaNova-Bold";
-    font-size: 22px;
+    font-family: "Proxima Nova Bold";
+    font-size: 18px;
 }
 
 .item2 {
     color: white;
     padding: 0px 0px 0px 40px;
     text-decoration: none;
-    font-family: "ProximaNova-Semibold";
-    font-size: 22px;
+    font-family: "Proxima Nova Regular";
+    font-size: 18px;
 }
 
 
@@ -66,15 +66,15 @@ li {
     color: white;
     padding: 0px 0px 0px 40px;
     text-decoration: none;
-    font-family: "ProximaNova-Semibold";
-    font-size: 22px;
+    font-family: "Proxima Nova Regular";
+    font-size: 18px;
 }
 
 .button {
     color: white;
     text-decoration: none;
-    font-family: "ProximaNova-Semibold";
-    font-size: 22px;
+    font-family: "Proxima Nova Semibold";
+    font-size: 18px;
     border: 1px solid;
     border-radius: 2.4rem;
     justify-content: center;
@@ -110,15 +110,15 @@ li {
 
 h1 {
     color: white;
-    font-family: "ProximaNova-Semibold";
-    font-size: 60.5px
+    font-family: "Proxima Nova Semibold";
+    font-size: 44px;
     line-height: 1.19;
 }
 
 p {
     color: white;
-    font-family: "ProximaNova-Semibold";
-    font-size: 24.75px
+    font-family: "Proxima Nova Regular";
+    font-size: 18px;
     line-height: 1.6;
 }
 
@@ -134,7 +134,7 @@ p {
     color: #2FB495;
     background-color: white;
     text-decoration: none;
-    font-family: "ProximaNova-Semibold";
+    font-family: "Proxima Nova Semibold";
     font-size: 22px;
     border: 1px solid white;
     border-radius: 2.4rem;
@@ -152,7 +152,7 @@ p {
     color: white;
     background-color: transparent;
     text-decoration: none;
-    font-family: "ProximaNova-Semibold";
+    font-family: "Proxima Nova Semibold";
     font-size: 22px;
     border: 1px solid white;
     border-radius: 2.4rem;
@@ -183,56 +183,22 @@ p {
 
 
 @font-face {
-font-family: 'Proxima Nova Regular';
-font-style: normal;
-font-weight: normal;
-src: local('fonts/Proxima Nova Regular'), url('ProximaNova-Regular.woff') format('woff');
-}
-
-
-@font-face {
-font-family: 'Proxima Nova Thin';
-font-style: normal;
-font-weight: normal;
-src: local('fonts/Proxima Nova Thin'), url('ProximaNovaT-Thin.woff') format('woff');
-}
-
-
-@font-face {
-font-family: 'Proxima Nova Light';
-font-style: normal;
-font-weight: normal;
-src: local('fonts/Proxima Nova Light'), url('ProximaNova-Light.woff') format('woff');
-}
-
-
-@font-face {
 font-family: 'Proxima Nova Semibold';
 font-style: normal;
 font-weight: normal;
-src: local('fonts/Proxima Nova Semibold'), url('ProximaNova-Semibold.woff') format('woff');
+src: local('fonts/Proxima Nova Semibold'), url('fonts/ProximaNova-Semibold.woff') format('woff');
 }
-
 
 @font-face {
 font-family: 'Proxima Nova Bold';
 font-style: normal;
 font-weight: normal;
-src: local('fonts/Proxima Nova Bold'), url('ProximaNova-Bold.woff') format('woff');
+src: local('fonts/Proxima Nova Bold'), url('fonts/ProximaNova-Bold.woff') format('woff');
 }
 
-
 @font-face {
-font-family: 'Proxima Nova Extrabold';
+font-family: 'Proxima Nova Regular';
 font-style: normal;
 font-weight: normal;
-src: local('fonts/Proxima Nova Extrabold'), url('ProximaNova-Extrabld.woff') format('woff');
-}
-
-
-@font-face {
-font-family: 'Proxima Nova Black';
-font-style: normal;
-font-weight: normal;
-src: local('fonts/Proxima Nova Black'), url('ProximaNova-Black.woff') format('woff');
+src: local('fonts/Proxima Nova Regular'), url('fonts/ProximaNova-Regular.woff') format('woff');
 }
